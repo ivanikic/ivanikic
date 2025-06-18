@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+font-family: "NewYork";
+src: url("MapaMaterijali/NewYork.otf");
+}
+
+ul a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8px;
+  margin: 5px 5;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  border: 2px white;
+}
+
+a.button:hover {
+  background-color: white;
+  color: black;
+  border: 2px black;
+}
+
+  .row {
+  margin-bottom: 100px;
+  }
+
+li {
+  display: inline-block;
+  margin-right: 100px;
+  font-family: 'NewYork';
+  font-size: 50px;
+  color: black;
+  text-shadow: 3px 3px 3px #000, 3px 3px 3px #000, 3px 3px 3px #000;
+  line-height: 50px;
+text-indent: 0px;
+}
+h2 {
+font-family: 'NewYork';
+font-size: 90px;
+color: thistle;
+text-shadow: 5px 5px 5px #000, 5px 5px 5px #000, 5px 5px 5px #000;
+line-height: 0px
+}
+h1{
+font-family: 'NewYork';
+font-size: 30px;
+color: white;
+text-shadow: 5px 5px 5px #000, 5px 5px 5px #000, 5px 5px 5px #000;
+line-height: 50px
+}
+body {
+background-image: url("Slike/pozadina1.jpg");
+}
+p{
+font-family: 'NewYork';
+font-size: 30px;
+color: white;
+text-shadow: 5px 5px 5px #000, 5px 5px 5px #000, 5px 5px 5px #000, 5px 5px 5px #000, 5px 5px 5px #000, 5px 5px 5px #000;
+line-height: 40px;
+margin-left: 15px;
+margin-top: 100px;
+}
+h3{
+ font-family: 'NewYork';
+  font-size: 70px;
+  color: cadetblue;
+  text-shadow: 2px 4px 5px #000, 3px 2px 4px #000, 4px 2px 1px #000;
+  line-height: 30px;
+  margin-top: 20px;
+}
+iframe{
+margin-left: 80px;
+box-shadow: 5px 5px 5px 5px;
+margin-top: -20px;
+}
+img {box-shadow: 5px 5px 5px 5px;}
